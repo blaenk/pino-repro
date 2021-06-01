@@ -1,0 +1,17 @@
+{
+  "name": "pino-repro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "NODE_ENV=development node ./build/index.js"
+  },
+  "dependencies": {
+    "pino": "^6.11.2",
+    "pino-pretty": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/pino": "^6.3.8",
+    "typescript": "^4.3.2"
+  }
+}
